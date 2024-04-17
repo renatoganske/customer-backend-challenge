@@ -5,6 +5,7 @@ Trata-se de um projeto que consome uma API de proutos da Magazine Luiza e adicio
 Requisitos para rodar o projeto:
 
     - Java 21
+    - Postgres
     - Sistema gerenciador de banco de dados que trabalhe com Postgres (utilizamos o DBeaver)
     - Postman ou Insomnia para teste das requisicoes
 
