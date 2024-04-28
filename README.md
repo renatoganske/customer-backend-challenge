@@ -14,8 +14,8 @@ Passos para utilizar a aplicacao:
     - Abra a aplicacao na sua IDE, instale as dependencias;
     - Crie o banco de dados com o nome customerbackendchallengedb e configure a conexao de acordo com os seguintes dados:
         - url= postgresql://localhost:5432/customerbackendchallengedb
-        - username= postgres
-        - password= 1234
+        - username= root
+        - password= root
     - Execute a aplicacao
 
 No Postman, faca os testes. Seguem alguns exemplos de requisicao:
