@@ -7,4 +7,4 @@ done
 
 # Comandos SQL para criar o banco de dados e configurar as tabelas
 psql -h postgres -U postgres -c "CREATE DATABASE customerbackendchallengedb;"
-psql -h postgres -U postgres -d customerbackendchallengedb -f /script/schema.sql
+psql -h postgres -U postgres -d customerbackendchallengedb -f /init/init.sql

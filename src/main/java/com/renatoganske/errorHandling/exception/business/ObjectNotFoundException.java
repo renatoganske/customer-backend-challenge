@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(HttpStatus.NOT_FOUND)
 public class ObjectNotFoundException extends BaseRuntimeException {
-    private static final String KEY = "notfound";
+    private static final String KEY = "findById.rule";
 
     public ObjectNotFoundException() {
         super();

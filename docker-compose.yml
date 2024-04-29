@@ -6,8 +6,8 @@ services:
     container_name: postgres
     environment:
       POSTGRES_DB: customerbackendchallengedb
-      POSTGRES_USER: root
-      POSTGRES_PASSWORD: root
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
     volumes:
       - ./init:/docker-entrypoint-init-db.sh/
     ports:
