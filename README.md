@@ -18,6 +18,10 @@ Passos para utilizar a aplicacao:
     
 - Abra um terminal na pasta do projeto e execute o comando
 
+        mvnw clean package -DskipTests
+
+- Após, no mesmo terminal, execute:
+
         docker-compose up
 
 A aplicação deverá subir e você poderá realizar os testes no Postman. Seguem alguns exemplos de requisição:
