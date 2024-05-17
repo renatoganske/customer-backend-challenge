@@ -6,11 +6,16 @@ Trata-se de um projeto que consome uma API de proutos da Magazine Luiza e adicio
 - Postgres
 
 Requisitos para rodar o projeto:
-- Java 21
-- Maven
-- Docker
-- Postman ou Insomnia para teste das requisições
-- DBeaver ou outro gerenciador de banco de dados caso você queira acompanhar o comportamento do banco
+  Com Docker:
+   - Docker
+   - Postman ou Insomnia para teste das requisições
+   - DBeaver ou outro gerenciador de banco de dados caso você queira acompanhar o comportamento do banco
+
+  Localmente:
+   - Java 21
+   - Maven
+   - Postman ou Insomnia para teste das requisições
+   - DBeaver ou outro gerenciador de banco de dados caso você queira acompanhar o comportamento do banco
 
 Passos para utilizar a aplicacao:
 
